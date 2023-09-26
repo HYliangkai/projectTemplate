@@ -1,0 +1,7 @@
+
+[submodule "vue2-vite/src/assets/commonStyle"]
+	path = vue2-vite/src/assets/commonStyle
+	url = https://github.com/HYliangkai/commonStyle.git
+[submodule "vue2-vite/lint"]
+	path = vue2-vite/lint
+	url = https://github.com/HYliangkai/vueProjectLint.git
