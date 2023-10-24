@@ -3,7 +3,7 @@
   "explorer.fileNesting.patterns": {
     "vite.config.js": ".gitignore, .gitmodules,package-lock.json,package.json,pnpm-lock.yaml,index.html"
   },
-  "html-css-class-completion.includeGlobPattern": "**/src/assets/scss/commonStyle/**.{css,scss}",
+  "html-css-class-completion.includeGlobPattern": "**/src/assets/commonStyle/**.{css,scss}",
   "prettier.configPath": "./lint/.prettierrc.js",
   "eslint.options": {
     "configFile": "./lint/.eslintrc.js"
