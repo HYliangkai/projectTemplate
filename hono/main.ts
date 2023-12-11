@@ -13,6 +13,7 @@ try {
     err => {
       match(
         err.type,
+
         [
           'Panic',
           () => {

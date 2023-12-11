@@ -1,0 +1,20 @@
+  <-- GET /
+  --> GET / [32m200[0m 1ms
+  <-- GET /favicon.ico
+  --> GET /favicon.ico [33m404[0m 0ms
+  <-- GET /hit
+  --> GET /hit [32m200[0m 0ms
+  <-- GET /favicon.ico
+  --> GET /favicon.ico [33m404[0m 1ms
+  <-- GET /hit
+  --> GET /hit [32m200[0m 0ms
+  <-- GET /favicon.ico
+  --> GET /favicon.ico [33m404[0m 0ms
+  <-- GET /hit
+  --> GET /hit [32m200[0m 2ms
+  <-- GET /favicon.ico
+  --> GET /favicon.ico [33m404[0m 0ms
+  <-- GET /hit
+  --> GET /hit [32m200[0m 2ms
+  <-- GET /favicon.ico
+  --> GET /favicon.ico [33m404[0m 0ms

@@ -1,7 +1,9 @@
 {
   "tasks": {
     "dev": "deno run -A --unstable main.ts",
-    "watch": "deno run -A --unstable --watch main.ts"
+    "watch": "deno run -A --unstable --watch main.ts",
+    "hmr": "deno run -A --unstable --hmr  main.ts",
+    "test": "deno test -A --unstable test/*"
   },
   "fmt": {
     "options": {
@@ -21,6 +23,7 @@
   //依赖导入处理,可以实现本地程序或外部链接的导入映射(原生层面)
   "imports": {
     "@/": "./src/",
+    "@dep/": "./lib/dep/",
     "lib": "./lib/mod.ts"
   }
 }
